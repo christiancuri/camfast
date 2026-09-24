@@ -6,6 +6,9 @@ streams, decoded by the hardware video engine and drawn by the GPU, so the CPU b
 Built with Rust and [GPUI](https://www.gpui.rs). No recording, no cloud, no accounts:
 it only shows live video, and it's built to keep showing it.
 
+**[Download the latest release](https://github.com/christiancuri/camfast/releases/latest)**
+(macOS 13+, Apple silicon)
+
 ![CamFast mosaic with four cameras](docs/screenshots/mosaic.jpg)
 
 ## Highlights
@@ -48,8 +51,10 @@ footage ([credits](scripts/demo/CREDITS.md)).
 
 ## Install
 
-Download or build the DMG (`packaging/macos/dmg.sh`), open it and drag **CamFast** to
-Applications.
+Download `CamFast-<version>.dmg` from the
+[latest release](https://github.com/christiancuri/camfast/releases/latest), open it and drag
+**CamFast** to Applications. Each release also lists the DMG's SHA-256 checksum. To build the
+DMG yourself, see [Building](#building).
 
 CamFast is ad-hoc signed, not notarized. On first launch, macOS will block it: open
 **System Settings › Privacy & Security** and click **Open Anyway**, or run:
