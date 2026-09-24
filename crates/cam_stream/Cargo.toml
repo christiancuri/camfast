@@ -1,0 +1,30 @@
+[package]
+name = "cam_stream"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+cam_config.workspace = true
+core-video.workspace = true
+core-foundation.workspace = true
+retina.workspace = true
+tokio.workspace = true
+futures.workspace = true
+async-channel.workspace = true
+parking_lot.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+rand.workspace = true
+url.workspace = true
+objc2.workspace = true
+objc2-core-foundation.workspace = true
+objc2-core-media.workspace = true
+objc2-core-video.workspace = true
+objc2-video-toolbox.workspace = true
+
+[dev-dependencies]
+tracing-subscriber.workspace = true
+libc = "0.2"

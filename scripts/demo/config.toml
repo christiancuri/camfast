@@ -1,0 +1,48 @@
+# CamFast config for the demo cameras served by scripts/demo/run.sh.
+# run.sh prints the launch command; it points CAMFAST_CONFIG at a copy in ~/.cache/camfast-demo/run/
+# because CamFast writes its config back (window position, edits).
+open_at_login = false
+smooth_playback = false
+# Top-left, top-right, bottom-left, bottom-right.
+slots = [
+    "a1f3c9e2-4b7d-4e21-9c3a-5f8e2d1b0a01",
+    "b2e4d0f3-5c8e-4f32-8d4b-6a9f3e2c1b02",
+    "c3f5e1a4-6d9f-4a43-9e5c-7b0a4f3d2c03",
+    "d4a6f2b5-7e0a-4b54-8f6d-8c1b5a4e3d04",
+]
+
+[[camera]]
+id = "a1f3c9e2-4b7d-4e21-9c3a-5f8e2d1b0a01"
+name = "Front Door"
+host = "127.0.0.1"
+port = 8554
+stream = "main"
+username = ""
+password = ""
+
+[[camera]]
+id = "b2e4d0f3-5c8e-4f32-8d4b-6a9f3e2c1b02"
+name = "Driveway"
+host = "127.0.0.1"
+port = 8555
+stream = "main"
+username = ""
+password = ""
+
+[[camera]]
+id = "c3f5e1a4-6d9f-4a43-9e5c-7b0a4f3d2c03"
+name = "Backyard"
+host = "127.0.0.1"
+port = 8556
+stream = "main"
+username = ""
+password = ""
+
+[[camera]]
+id = "d4a6f2b5-7e0a-4b54-8f6d-8c1b5a4e3d04"
+name = "Garage"
+host = "127.0.0.1"
+port = 8557
+stream = "main"
+username = ""
+password = ""
